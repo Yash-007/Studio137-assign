@@ -61,6 +61,14 @@ body {
   cursor: pointer;
 }
 
+.navigation .prev {
+  margin-right: auto;
+}
+
+.navigation .next {
+  margin-left: auto;
+}
+
 @media (max-width: 768px) {
   .App {
     padding: 10px;
