@@ -1,0 +1,91 @@
+.question-container {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.question-text {
+  font-size: 1.5em;
+  margin-bottom: 90px;
+  color: #333;
+  text-align: center;
+}
+
+.horizontal-slider {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.thumb {
+  height: 25px;
+  width: 25px;
+  background-color: #20ADB4;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid #333;
+}
+
+.track {
+  background: #20ADB4;
+  height: 8px;
+  border-radius: 4px;
+}
+
+.track-1 {
+  background: #e0e0df;
+  transition: width 1s ease-in-out;
+}
+
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3em;
+  color: #666;
+  margin-top: 60px;
+}
+
+.react-slider-label {
+  cursor: pointer;
+  padding: 5px;
+  flex: 1;
+  text-align: center;
+  padding: 30px 0;
+}
+
+@media (max-width: 768px) {
+  .question-container {
+    padding: 10px;
+  }
+
+  .question-text {
+    font-size: 1.3em;
+    margin-bottom: 50px;
+  }
+
+  .slider-labels {
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+
+  .react-slider-label {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .question-container {
+    padding: 5px;
+  }
+
+  .question-text {
+    font-size: 0.9em;
+    margin-bottom: 30px;
+  }
+
+  .slider-labels {
+    font-size: 0.7em;
+  }
+
+  .react-slider-label {
+    padding: 2px;
+  }
+}
